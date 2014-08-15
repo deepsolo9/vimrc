@@ -52,3 +52,6 @@ endif
 set backspace=indent,eol,start
 map <C-\> :vs <CR>:exec("tag ".expand("<cword>"))<CR>
 "set fileencodings=utf-8,chinese
+
+let @d = "oimport traceback as tb; tb.print_stack()"
+let @p = "oprint '=========== HWW print '"
